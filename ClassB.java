@@ -9,8 +9,8 @@ class classB{
 
 	String b = "world"
 
-	String c = a+ b;
+	String c = a + b;
 
-	System.out.printlv("output : " + c);
+	System.out.println("output : " + c);
 	}
 }

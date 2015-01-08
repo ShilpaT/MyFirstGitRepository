@@ -1,14 +1,14 @@
 package test;
 
-class classa{
+class classA{
 	
 
 	public static void main(String [] arg){
 
 	String a = "hello";
 
-	String b = world"
+	String b = "world"
 
-	System.out.printlv("output : " a + b);
+	System.out.println("output : " + a + b);
 	}
 }

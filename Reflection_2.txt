@@ -6,3 +6,6 @@ We get a meta data file to track the local changes on the files in the containin
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 An intermdiate zone before commit..Offer more control over the commits...
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add the files changed for one particular logical change and do a bulk commit.
