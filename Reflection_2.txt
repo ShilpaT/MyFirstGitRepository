@@ -1,0 +1,8 @@
+#!/bin/sh
+What happens when you initialize a repository? Why do you need to do it?
+an empty meta data file .git file gets created with no history of commits in the containing folder.
+We get a meta data file to track the local changes on the files in the containing folder
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+An intermdiate zone before commit..Offer more control over the commits...
