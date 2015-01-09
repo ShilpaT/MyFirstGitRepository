@@ -1,0 +1,36 @@
+Git Concepts
+
+Repository -> meta data file which tracks the changes of the files in the working directory
+Working directory-> the folder which has your source code
+Staging area-> intermediate section which files needed to be committed are added. It holds copy of most recent commit till we add changed file into it.
+Branch-> labled version of a code base
+merge -> combines two branch labels
+
+File A      File B	Original_File	Merged file
+	A		A			A				A
+	B 		D			B				D
+	C		E			F				C
+			F							E
+			
+Git commands
+1)log -> gives the history of commits on the file
+	log --graph --oneline <br1> <br2> -> shows the history of commits in the two branches 
+2)diff -> compares two files and lists out content of first file + lines added in the second file(+) + lines deleted in the second file(-)
+	git diff Id1 id2  -> compares 2 commit ids.
+	git diff -> compares files which are in working directory and in the staging area
+	git diff --staged ->compares files which are in staged area and committed area
+
+3)clone-> clones the repository to the working directory.copies the commit history along the files
+4)copy -> copies the repository to the working directory. does not copy the commit history along the files.
+5)add -> adds file to the staging area
+6)commit -> commits file to the repository
+7)status -> gives the status of the working directory. mainly lists files which are untracked and in staging area
+8)init-> initialises a git repository 
+9)checkout id -> revert to version of the commit specified by the id
+10)checkout master -> points back to the latest commit
+11) git branch -> lists all the labled branches in the code base
+12) git branch "<<name>>" -> creates a new branch of the head
+	git branch -d <<name>> -> deletes the branch
+13) git checkout <<branch label>> -> head now points to the branch of the specified label
+14) git show <<filename>>-> shows the difference between the file and its parent
+
