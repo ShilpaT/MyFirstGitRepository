@@ -9,3 +9,7 @@ An intermdiate zone before commit..Offer more control over the commits...
 
 How can you use the staging area to make sure you have one commit per logical change?
 Add the files changed for one particular logical change and do a bulk commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+helps with experimental festure coding
