@@ -34,3 +34,10 @@ Git commands
 13) git checkout <<branch label>> -> head now points to the branch of the specified label
 14) git show <<filename>>-> shows the difference between the file and its parent
 
+
+Working with GitHub
+1)remote -> lists all the repositories available to me in GitHub
+2)remote -v -> lists the url where fetch and push happen..usually, they point to the same url.
+3)remote add "<<repo name>>" "<<remote url>>"  adds a remote repo by the given name
+4)push <<repo name>> <<branchName>> -> pushes the master branch to the remote
+Eg: git push origin master
