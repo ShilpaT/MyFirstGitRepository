@@ -41,3 +41,5 @@ Working with GitHub
 3)remote add "<<repo name>>" "<<remote url>>"  adds a remote repo by the given name
 4)push <<repo name>> <<branchName>> -> pushes the master branch to the remote
 Eg: git push origin master
+5)pull <<remote repo name>> <<remote branch name>> -> pulls the latest code base from the remote branch
+Eg: git pull origin master
